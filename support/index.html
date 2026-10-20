@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Support — Fee Sheet</title>
-  <meta name="description" content="Help for Fee Sheet: Check Deal, BUY and SKIP, Target Sale, Maximum Buy Price, Buying Criteria, entering fees, Seller Profiles, Saved Deals, Appearance, ads, Fee Sheet Premium, Restore Purchases, ad privacy choices, new devices and troubleshooting.">
+  <meta name="description" content="Help for Fee Sheet: Check Deal, BUY and SKIP, Target Sale, Maximum Buy Price, Buying Criteria, entering fees, Seller Profiles, Saved Deals, currency, language, Appearance, ads, Fee Sheet Premium, Restore Purchases, ad privacy choices, new devices and troubleshooting.">
   <link rel="canonical" href="https://ozturkbay.github.io/fee-sheet-support/support/">
   <link rel="alternate" hreflang="en" href="https://ozturkbay.github.io/fee-sheet-support/support/">
   <link rel="alternate" hreflang="tr" href="https://ozturkbay.github.io/fee-sheet-support/support/tr/">
@@ -49,6 +49,8 @@
           <li><a href="#fees">Entering fees</a></li>
           <li><a href="#profiles">Seller Profiles</a></li>
           <li><a href="#saved-deals">Saved Deals</a></li>
+          <li><a href="#currency">Currency</a></li>
+          <li><a href="#language">Language</a></li>
           <li><a href="#appearance">Appearance</a></li>
           <li><a href="#help">Help &amp; Quick Start</a></li>
           <li><a href="#price">Free version and Fee Sheet Premium</a></li>
@@ -82,14 +84,14 @@
       <section aria-labelledby="max-buy">
         <h2 id="max-buy">Maximum Buy Price</h2>
         <p>The <strong>Maximum Buy Price</strong> (shown under BUY LIMIT) is the most you can pay for an item while still meeting your current minimum profit and ROI, based on the sale price, costs and fees you entered. It is shown whether the result is BUY or SKIP.</p>
-        <p>A Maximum Buy Price of $0.00 means that no positive purchase price meets both targets at that sale price.</p>
+        <p>A Maximum Buy Price of zero (for example, $0.00) means that no positive purchase price meets both targets at that sale price.</p>
       </section>
 
       <section aria-labelledby="criteria">
         <h2 id="criteria">Buying Criteria</h2>
-        <p>Your Buying Criteria are the targets used for BUY or SKIP, Target Sale and Maximum Buy Price. Set them in <span class="path">Settings</span>:</p>
+        <p>Your Buying Criteria are the targets used for BUY or SKIP, Target Sale and Maximum Buy Price. Set them under <strong>BUYING CRITERIA</strong> in <span class="path">Settings</span>:</p>
         <ul>
-          <li><strong>Minimum Profit</strong> — default <span class="num">$15</span>.</li>
+          <li><strong>Minimum profit</strong> — default <span class="num">15</span>, shown in your selected currency (for example, $15).</li>
           <li><strong>Minimum ROI</strong> — default <span class="num">50%</span>.</li>
         </ul>
         <p>Tap <span class="path">Save settings</span> to apply them. Changes apply to new calculations; Saved Deals keep the criteria that were used when they were saved.</p>
@@ -100,7 +102,7 @@
         <p>Fee Sheet does not know any marketplace’s official fees and does not download fee tables. <strong>You enter your own fees</strong>, based on the marketplace and account you sell with:</p>
         <ul>
           <li><strong>Percentage fees</strong> — marketplace fee, advertising fee and payment processing fee. Each is applied to gross revenue: the sale price plus shipping charged to the buyer.</li>
-          <li><strong>Fixed fees</strong> — fixed marketplace fee and payment processing fixed fee, in dollars per sale.</li>
+          <li><strong>Fixed fees</strong> — fixed marketplace fee and payment processing fixed fee, per sale, in your selected currency.</li>
           <li><strong>Other costs</strong> — shipping cost, packaging and supplies, and any other cost of the sale.</li>
         </ul>
         <p>Marketplace fees vary by category, account and region, and they change over time. Check your marketplace’s current fee information and update your numbers when it changes.</p>
@@ -126,10 +128,28 @@
       <section aria-labelledby="saved-deals">
         <h2 id="saved-deals">Saved Deals</h2>
         <p>After checking a deal, tap <span class="path">Save Deal</span> and give it a name. Open your list with <span class="path">Saved</span> on the calculator.</p>
-        <p>A Saved Deal is a <strong>snapshot</strong>: it keeps the numbers you entered, the result and the Buying Criteria at the time it was saved. Editing a Seller Profile or changing your Buying Criteria later does not change it.</p>
+        <p>A Saved Deal is a <strong>snapshot</strong>: it keeps the numbers you entered, the result, the Buying Criteria at the time it was saved and the currency it was saved in. Editing a Seller Profile or changing your Buying Criteria later does not change it.</p>
         <p><span class="path">Recalculate with current settings</span> loads the deal into Check Deal using your current Buying Criteria. The original Saved Deal is <strong>not overwritten</strong>; save the new result as a separate deal if you want to keep it.</p>
         <p>To remove a Saved Deal, open it and delete it. This can’t be undone.</p>
         <p>The free version keeps up to <span class="num">5</span> Saved Deals. Fee Sheet Premium, or a 24-hour unlock from a rewarded ad, allows unlimited Saved Deals.</p>
+      </section>
+
+      <section aria-labelledby="currency">
+        <h2 id="currency">Currency</h2>
+        <p>In <span class="path">Settings</span>, under <strong>CURRENCY</strong>, choose <strong>US Dollar</strong> (the default) or <strong>Turkish Lira</strong>. Your choice applies right away.</p>
+        <ul>
+          <li><strong>Only the symbol and number format change.</strong> With US Dollar, amounts look like <span class="num">$1,234.56</span> and percentages like <span class="num">12.5%</span>; with Turkish Lira, <span class="num">₺1.234,56</span> and <span class="num">%12,5</span>.</li>
+          <li><strong>Amounts are never converted.</strong> Fee Sheet uses no exchange rates; the numbers you entered stay the same. This includes your Minimum profit target, so update it for the new currency if needed.</li>
+          <li><strong>Saved deals keep their own currency.</strong> Each deal is shown in the currency it was saved in. Deals saved before this update are shown in US Dollars.</li>
+          <li><strong>Decimal separator:</strong> when entering numbers, you can use either a decimal point or a decimal comma; for example, <span class="num">13.25</span> and <span class="num">13,25</span> are the same value.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="language">
+        <h2 id="language">Language</h2>
+        <p>Fee Sheet is available in English and Turkish and follows your iPhone’s language: if your iPhone is set to Turkish, the app opens in Turkish; otherwise it uses English.</p>
+        <p>To change the language for Fee Sheet only, go to <span class="path">Settings → Fee Sheet → Language</span> on your iPhone. In the app, the <span class="path">Settings → Language / Dil</span> row takes you straight to that page.</p>
+        <p class="muted">If you don’t see a Language option, add English or Turkish to your preferred languages in <span class="path">Settings → General → Language &amp; Region</span>; iOS shows the per-app language option only when you have more than one preferred language.</p>
       </section>
 
       <section aria-labelledby="appearance">
@@ -139,7 +159,7 @@
 
       <section aria-labelledby="help">
         <h2 id="help">Help &amp; Quick Start</h2>
-        <p>Open <span class="path">Settings → Help &amp; Quick Start</span> for a short guide and plain-English definitions of the financial terms. Tap <span class="path">Try a sample deal</span> there to explore the calculator with example numbers. Sample values are for practice and are not saved.</p>
+        <p>Open <span class="path">Settings → Help &amp; Quick Start</span> for a short guide and plain-language definitions of the financial terms. Tap <span class="path">Try a sample deal</span> there to explore the calculator with example numbers. Sample values are for practice and are not saved.</p>
         <p>The first time you open Fee Sheet, <span class="path">Show me how it works</span> starts a short guided tour that highlights where to enter prices and fees and where to read the result. You can skip it at any step, and run it again any time from <span class="path">Help &amp; Quick Start → Replay quick tour</span>.</p>
       </section>
 
@@ -152,7 +172,7 @@
           <li>Compare Profiles uses your first 2 profiles.</li>
         </ul>
         <p>Your existing records are <strong>never deleted</strong> when a limit applies.</p>
-        <p><strong>Fee Sheet Premium</strong> is a one-time in-app purchase (US$2.99 in the United States; the price for your region is shown on the App Store before you buy). It removes all ads and all Free limits: unlimited Seller Profiles and Saved Deals, and Compare Profiles with all your profiles. It is not a subscription. Buy it, or restore it, in <span class="path">Settings → Fee Sheet Premium</span>.</p>
+        <p><strong>Fee Sheet Premium</strong> is a one-time in-app purchase (US$2.99 in the United States; the price for your region is shown on the App Store before you buy and is not affected by the in-app currency setting). It removes all ads and all Free limits: unlimited Seller Profiles and Saved Deals, and Compare Profiles with all your profiles. It is not a subscription. Buy it, or restore it, in <span class="path">Settings → Fee Sheet Premium</span>.</p>
         <p>Payments and refunds are handled by Apple. We can’t issue refunds ourselves; to request one, use Apple’s <a href="https://reportaproblem.apple.com/">Report a Problem</a> page.</p>
       </section>
 
@@ -203,9 +223,9 @@
         <p>If a result looks wrong, check the inputs first:</p>
         <ol>
           <li><strong>Check the selected Seller Profile.</strong> Make sure the right profile, or Custom / Manual, is selected.</li>
-          <li><strong>Check percentages and fixed fees.</strong> Enter percentages as percentages (for example, 13.25 for 13.25%), and fixed fees in dollars.</li>
+          <li><strong>Check percentages and fixed fees.</strong> Enter percentages as percentages (for example, 13.25 for 13.25%), and fixed fees in your selected currency.</li>
           <li><strong>Check shipping.</strong> Shipping charged to the buyer adds to revenue; shipping cost is what you pay to send the item.</li>
-          <li><strong>Check your Buying Criteria</strong> in Settings if a result is SKIP when you expected BUY.</li>
+          <li><strong>Check your Buying Criteria</strong> in Settings if a result is SKIP when you expected BUY. If you just changed the currency, make sure your Minimum profit still makes sense in the new currency.</li>
         </ol>
         <p>If you bought Fee Sheet Premium but still see ads or Free limits, use <span class="path">Settings → Fee Sheet Premium → Restore Purchases</span> while connected to the internet.</p>
         <p>If the app itself isn’t working as expected:</p>
@@ -224,7 +244,7 @@
         <ul>
           <li>your iPhone model and iOS version;</li>
           <li>the app version (shown on the App Store page);</li>
-          <li>what happened and what you expected, including the numbers you entered if a result looks wrong; and</li>
+          <li>what happened and what you expected, including the numbers you entered and the selected currency if a result looks wrong; and</li>
           <li>a screenshot, if it helps.</li>
         </ul>
         <p class="muted">Fee Sheet is developed and operated by Fatih Öztürkbay.</p>

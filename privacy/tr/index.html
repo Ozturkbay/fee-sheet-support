@@ -39,7 +39,7 @@
         <h2 id="summary">Kısaca</h2>
         <ul>
           <li>Fee Sheet’in <strong>hesap sistemi</strong>, <strong>sunucusu</strong> ve <strong>kendine ait analiz aracı yoktur</strong>. Uygulamaya girdiğiniz bilgilerin hiçbiri bize ulaşmaz.</li>
-          <li>Buying Criteria (alım kriterleri), Seller Profiles (satıcı profilleri), Saved Deals (kayıtlı fırsatlar) ve tercihleriniz <strong>yalnızca cihazınızda saklanır</strong>.</li>
+          <li>Alım kriterleriniz, Satıcı Profilleriniz, Kayıtlı Fırsatlarınız ve tercihleriniz <strong>yalnızca cihazınızda saklanır</strong>.</li>
           <li>Fee Sheet <strong>ücretsiz olarak indirilebilir</strong> ve ücretsiz sürümde <strong>Google AdMob reklamları gösterilir</strong>. Uygulamadaki Google yazılımı IP adresiniz, cihaz tanımlayıcılarınız ve reklam etkileşimleriniz gibi verileri toplayabilir. Ayrıntılar için <a href="#advertising">Reklamlar</a> bölümüne bakın.</li>
           <li>Reklamların verilerinizi nasıl kullanabileceğine <strong>siz karar verirsiniz</strong>: ilk kullanımda Google’ın onay formu (yasaların gerektirdiği yerlerde) ve Apple’ın izleme izni penceresi size sorar. Reddederseniz reklamlar yine gösterilir, ancak kişiselleştirilmemiş veya sınırlı reklamlar olur.</li>
           <li><strong>Fee Sheet Premium</strong>, tüm reklamları kaldıran isteğe bağlı, tek seferlik bir uygulama içi satın almadır. Premium’da uygulama hiçbir reklam isteği yapmaz.</li>
@@ -84,11 +84,12 @@
               <tr><th scope="col">Kategori</th><th scope="col">İçeriği</th></tr>
             </thead>
             <tbody>
-              <tr><td>Buying Criteria</td><td>Asgari kâr ve asgari ROI (yatırım getirisi) hedefleriniz.</td></tr>
-              <tr><td>Seller Profiles</td><td>Profil adları ve bu profiller için girdiğiniz ücret varsayımları; örneğin pazar yeri, reklam ve ödeme işlem yüzdeleri ile sabit ücretler.</td></tr>
-              <tr><td>Saved Deals</td><td>Kaydetmeyi seçtiğiniz fırsatlar: verdiğiniz ad, girdiğiniz rakamlar, o andaki sonuç ve kullanılan Buying Criteria.</td></tr>
+              <tr><td>Alım kriterleri</td><td>Minimum kâr ve minimum ROI (yatırım getirisi) hedefleriniz.</td></tr>
+              <tr><td>Satıcı Profilleri</td><td>Profil adları ve bu profiller için girdiğiniz ücret varsayımları; örneğin pazar yeri, reklam ve ödeme işlem yüzdeleri ile sabit ücretler.</td></tr>
+              <tr><td>Kayıtlı Fırsatlar</td><td>Kaydetmeyi seçtiğiniz fırsatlar: verdiğiniz ad, girdiğiniz rakamlar, o andaki sonuç, kullanılan alım kriterleri ve fırsatın kaydedildiği para birimi.</td></tr>
               <tr><td>Tanıtım ilerlemesi</td><td>Hangi tanıtım ipuçlarını ve kurulum adımlarını gördüğünüz veya tamamladığınız.</td></tr>
-              <tr><td>Görünüm</td><td>System, Light veya Dark tercihiniz.</td></tr>
+              <tr><td>Görünüm</td><td>Sistem, Açık veya Koyu tercihiniz.</td></tr>
+              <tr><td>Para birimi</td><td>Tutarların gösterimi için ABD Doları veya Türk Lirası tercihiniz. (Uygulamanın dili iPhone ayarlarınızı izler ve iOS tarafından yönetilir.)</td></tr>
               <tr><td>Reklam sıklığı</td><td>Uygulamayı ilk açtığınız zaman, tamamladığınız işlem sayısı, son reklamın gösterildiği zaman ve bugün gösterilen reklam sayısı. Yalnızca reklamlar arasında süre bırakmak ve günlük sınırları uygulamak için kullanılır.</td></tr>
               <tr><td>24 saatlik kilit açmalar</td><td>Ödüllü reklam izleyerek kazandığınız 24 saatlik kilit açmanın sona ereceği zaman.</td></tr>
               <tr><td>Premium satın alma kaydı</td><td>Fee Sheet Premium satın aldıysanız: ürün kimliği, işlem kimliği ve satın almanın en son doğrulandığı zaman. Premium’un çevrimdışı da çalışması için iOS Anahtar Zinciri’nde saklanır.</td></tr>
@@ -102,8 +103,8 @@
         <h2 id="advertising">3. Reklamlar (Google AdMob)</h2>
         <p>Fee Sheet’in ücretsiz sürümünde, Google Mobile Ads SDK kullanılarak Google AdMob tarafından sağlanan reklamlar gösterilir. Reklamlar işinizi bölmeyecek şekilde yerleştirilmiştir:</p>
         <ul>
-          <li><strong>Tam ekran (geçiş) reklamları</strong> yalnızca işlemler arasında gösterilir: bir fırsatı kaydettikten sonra, bir Seller Profile kaydettikten sonra veya Compare Profiles açılmadan önce. Rakam girerken ve uygulamayı ilk açtığınız andan itibaren ilk 10 dakika içinde asla gösterilmez; reklamlar arasında belirli bir süre bırakılır ve günlük bir üst sınır uygulanır.</li>
-          <li><strong>Ödüllü reklamlar</strong> yalnızca siz izlemeyi seçtiğinizde oynatılır ve bir Free sınırını 24 saatliğine kaldırır: sınırsız Saved Deals veya sınırsız Seller Profiles ile birlikte tüm profilleri karşılaştırma.</li>
+          <li><strong>Tam ekran (geçiş) reklamları</strong> yalnızca işlemler arasında gösterilir: bir fırsatı kaydettikten sonra, bir Satıcı Profili kaydettikten sonra veya Profilleri Karşılaştır açılmadan önce. Rakam girerken ve uygulamayı ilk açtığınız andan itibaren ilk 10 dakika içinde asla gösterilmez; reklamlar arasında belirli bir süre bırakılır ve günlük bir üst sınır uygulanır.</li>
+          <li><strong>Ödüllü reklamlar</strong> yalnızca siz izlemeyi seçtiğinizde oynatılır ve bir ücretsiz sürüm sınırını 24 saatliğine kaldırır: sınırsız Kayıtlı Fırsat veya sınırsız Satıcı Profili ile birlikte tüm profilleri karşılaştırma.</li>
           <li><strong>Banner reklam yoktur</strong>. Reklam içeriği en fazla PG (ebeveyn rehberliği önerilir) derecesiyle sınırlıdır.</li>
         </ul>
 
@@ -141,7 +142,7 @@
         <p>Tercihlerinizi istediğiniz zaman değiştirebilirsiniz:</p>
         <ul>
           <li><strong>İzleme:</strong> iPhone’unuzda <span class="path">Ayarlar → Gizlilik ve Güvenlik → İzleme</span> bölümünden.</li>
-          <li><strong>Onay:</strong> Google’ın onay formunun geçerli olduğu yerlerde, uygulamada <span class="path">Settings → Ad privacy choices</span> bölümünden.</li>
+          <li><strong>Onay:</strong> Google’ın onay formunun geçerli olduğu yerlerde, uygulamada <span class="path">Ayarlar → Reklam gizliliği seçenekleri</span> bölümünden.</li>
         </ul>
       </section>
 
@@ -159,14 +160,14 @@
 
       <section aria-labelledby="purchase">
         <h2 id="purchase">6. Fee Sheet Premium ve satın alma</h2>
-        <p>Fee Sheet ücretsiz olarak indirilebilir. <strong>Fee Sheet Premium</strong>, tüm reklamları ve tüm Free sınırlarını kaldıran isteğe bağlı, tek seferlik bir uygulama içi satın almadır. Abonelik değildir.</p>
-        <p>Satın alma ve Restore Purchases (satın alımları geri yükleme) işlemleri Apple tarafından, Apple’ın kendi koşulları ve <a href="https://www.apple.com/legal/privacy/" hreflang="en">gizlilik politikası</a> kapsamında gerçekleştirilir. Adınız, Apple Hesabı bilgileriniz veya ödeme bilgileriniz bize ulaşmaz. Apple, geliştiricilere tek tek alıcıları tanımlamayan satış raporları sağlar. Uygulama, satın alımınızı çevrimdışıyken de tanıyabilmek için <a href="#local-data">2. bölümde</a> açıklanan Premium satın alma kaydını cihazınızda tutar; bu kayıt bize gönderilmez.</p>
+        <p>Fee Sheet ücretsiz olarak indirilebilir. <strong>Fee Sheet Premium</strong>, tüm reklamları ve tüm ücretsiz sürüm sınırlarını kaldıran isteğe bağlı, tek seferlik bir uygulama içi satın almadır. Abonelik değildir.</p>
+        <p>Satın alma ve satın alımları geri yükleme (Satın Alımları Geri Yükle) işlemleri Apple tarafından, Apple’ın kendi koşulları ve <a href="https://www.apple.com/legal/privacy/" hreflang="en">gizlilik politikası</a> kapsamında gerçekleştirilir. Adınız, Apple Hesabı bilgileriniz veya ödeme bilgileriniz bize ulaşmaz. Apple, geliştiricilere tek tek alıcıları tanımlamayan satış raporları sağlar. Uygulama, satın alımınızı çevrimdışıyken de tanıyabilmek için <a href="#local-data">2. bölümde</a> açıklanan Premium satın alma kaydını cihazınızda tutar; bu kayıt bize gönderilmez.</p>
       </section>
 
       <section aria-labelledby="backups">
         <h2 id="backups">7. Cihaz yedekleri ve yeni cihazlar</h2>
         <p>Fee Sheet verilerinizi kendisi yedeklemez veya eşzamanlamaz. Ancak çoğu iPhone uygulamasında olduğu gibi, ayarlarınıza bağlı olarak cihazınızın kendi yedekleri (örneğin iCloud Yedekleme veya bilgisayara alınan yedek) uygulamanın verilerini içerebilir. Cihazınızı böyle bir yedekten geri yüklediğinizde veya yeni bir iPhone’a geçtiğinizde iOS bu verileri geri yükleyebilir. Bu yedekler bizim tarafımızdan değil, Apple ve sizin tarafınızdan yönetilir; bunlara erişimimiz yoktur.</p>
-        <p>Yeni bir iPhone’da, aynı Apple Hesabı ile Restore Purchases özelliğini kullanarak Fee Sheet Premium’u ek ücret ödemeden geri alabilirsiniz.</p>
+        <p>Yeni bir iPhone’da, aynı Apple Hesabı ile Satın Alımları Geri Yükle seçeneğini kullanarak Fee Sheet Premium’u ek ücret ödemeden geri alabilirsiniz.</p>
       </section>
 
       <section aria-labelledby="not-received">
@@ -204,9 +205,9 @@
         <h2 id="choices">12. Tercihleriniz</h2>
         <ul>
           <li><strong>İzleme:</strong> iPhone’unuzda <span class="path">Ayarlar → Gizlilik ve Güvenlik → İzleme</span> bölümünden izlemeye istediğiniz zaman izin verebilir veya izni kaldırabilirsiniz.</li>
-          <li><strong>Reklam onayı:</strong> Google’ın onay formunun geçerli olduğu yerlerde tercihlerinizi uygulamada <span class="path">Settings → Ad privacy choices</span> bölümünden gözden geçirebilir veya değiştirebilirsiniz.</li>
+          <li><strong>Reklam onayı:</strong> Google’ın onay formunun geçerli olduğu yerlerde tercihlerinizi uygulamada <span class="path">Ayarlar → Reklam gizliliği seçenekleri</span> bölümünden gözden geçirebilir veya değiştirebilirsiniz.</li>
           <li><strong>Reklamsız kullanım:</strong> tüm reklamları kaldırmak ve reklam isteklerini tamamen durdurmak için Fee Sheet Premium satın alabilirsiniz.</li>
-          <li><strong>Tek tek kayıtları silme:</strong> Saved Deals ve Seller Profiles kayıtlarını istediğiniz zaman uygulama içinden silebilirsiniz.</li>
+          <li><strong>Tek tek kayıtları silme:</strong> Kayıtlı Fırsatlar ve Satıcı Profilleri kayıtlarını istediğiniz zaman uygulama içinden silebilirsiniz.</li>
           <li><strong>Tümünü silme:</strong> uygulamanın verilerini kaldırmak için uygulamayı cihazınızdan silin.</li>
           <li><strong>Yedekler:</strong> iCloud Yedekleme ve diğer cihaz yedeklerini iPhone ayarlarınızdan yönetebilirsiniz.</li>
           <li><strong>Talepler:</strong> yaşadığınız yere bağlı olarak, kişisel verilere erişim veya bunların silinmesini isteme gibi veri koruma mevzuatından doğan haklarınız olabilir. Uygulamadan gelen hiçbir veriyi tutmadığımız için bize yapılan talepler destek e-postalarıyla ilgilidir. Google SDK’larının topladığı veriler için <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>’na bakın. Her türlü talep için bizimle iletişime geçebilirsiniz.</li>
