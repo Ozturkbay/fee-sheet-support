@@ -74,21 +74,25 @@ Then open http://localhost:8000/. (Opening the files directly with
 
 The privacy policies show their date near the top:
 
-- `privacy/index.html` — `Effective date: 19 October 2026`
-- `privacy/tr/index.html` — `Yürürlük tarihi: 19 Ekim 2026`
+- `privacy/index.html` — `Effective date: 20 October 2026`
+- `privacy/tr/index.html` — `Yürürlük tarihi: 20 Ekim 2026`
 
 When the policy changes, edit both lines together and keep the English and
 Turkish texts aligned section by section. Turkish month names: Ocak, Şubat,
 Mart, Nisan, Mayıs, Haziran, Temmuz, Ağustos, Eylül, Ekim, Kasım, Aralık.
 
-The policy describes what the app does today: a paid-upfront app with no
-in-app purchases, subscriptions, ads, accounts, analytics, tracking or
-network requests, storing Buying Criteria, Seller Profiles, Saved Deals,
-onboarding progress and the appearance preference only in local device
-storage. If the app adds in-app purchases (for example, a Pro tier), export,
-an SDK, a permission, an account system, analytics or a server, review both
-privacy pages and the Support "Price and purchases" section before releasing
-that version.
+The policy describes what the app does today (since 20 October 2026): a
+free download with Google AdMob ads (interstitial and rewarded, no banners;
+Google Mobile Ads SDK plus UMP consent, then Apple's ATT prompt) and one
+optional non-consumable in-app purchase, Fee Sheet Premium, that removes ads
+and Free limits. The developer still has no account system, server or
+analytics of its own; Buying Criteria, Seller Profiles, Saved Deals,
+onboarding progress, appearance, the ad-frequency counter and rewarded-unlock
+expiry stay in local device storage, and the Premium purchase record is kept
+in the iOS Keychain. If the app adds another SDK, a permission, an account
+system, analytics, a server or changes its ads or purchases, review both
+privacy pages and the Support "Free version and Fee Sheet Premium" and "Ads
+and Premium" sections before releasing that version.
 
 ## App icon
 
